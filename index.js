@@ -31,9 +31,9 @@ function container(){
             ${(rectangle.value/0.264).toFixed(2)} liters
             `
         groupEl3.textContent = `
-        ${rectangle.value} kilogram = 
+        ${rectangle.value} kilos = 
             ${(rectangle.value*2.204).toFixed(3)} pounds | ${rectangle.value} pounds = 
-            ${(rectangle.value/2.204).toFixed(2)} kilograms
+            ${(rectangle.value/2.204).toFixed(2)} kilos
             `     
             //emptied input field after pressing button
         rectangle.value = ""

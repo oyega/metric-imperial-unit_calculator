@@ -18,6 +18,10 @@
         left: 16px;
     }
 
+    h3 {
+        width: 380px;
+    }
+
     @media (min-width:300px) {
         body {
             position: absolute;

@@ -9,6 +9,10 @@
         }
     }
 
+    #main {
+        width: 500px;
+    }
+
     @media (min-width:300px) {
         body {
             position: absolute;

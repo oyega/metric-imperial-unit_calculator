@@ -20,18 +20,18 @@ convertBtn.addEventListener("click", function(){
 })
 
 function container1(){
-    if(inputOptions.value === "meter")
-        if(outputOptions.value === "meter") {
+    if(inputOptions.value === "Meter")
+        if(outputOptions.value === "Meter") {
             groupEl1.textContent = `${rectangle.value} meters`
         }
 
-         if(inputOptions.value === "feet") 
-            if(outputOptions.value === "feet"){
+         if(inputOptions.value === "Feet") 
+            if(outputOptions.value === "Feet"){
                 groupEl1.textContent = `${rectangle.value} feets`
             }
 
-          if(inputOptions.value === "meter") 
-            if(outputOptions.value === "feet"){
+          if(inputOptions.value === "Meter") 
+            if(outputOptions.value === "Feet"){
 //rectangle.value prevents conversion of empty value
                 if (rectangle.value){
                 //literal strings
@@ -42,8 +42,8 @@ function container1(){
         }
     }
 
-                if(inputOptions.value === "feet")
-                if(outputOptions.value === "meter"){
+                if(inputOptions.value === "Feet")
+                if(outputOptions.value === "Meter"){
 
                     if (rectangle.value){
             groupEl1.textContent = `${rectangle.value} feet = 
@@ -53,18 +53,18 @@ function container1(){
     }
 
 
-    if(inputOptions.value === "kilogram")
-        if(outputOptions3.value === "kilogram") {
+    if(inputOptions.value === "Kilogram")
+        if(outputOptions3.value === "Kilogram") {
             groupEl3.textContent = `${rectangle.value} kilogram`
         }
 
-         if(inputOptions.value === "pound") 
-            if(outputOptions3.value === "pound"){
+         if(inputOptions.value === "Pound") 
+            if(outputOptions3.value === "Pound"){
                 groupEl3.textContent = `${rectangle.value} pound`
             }
 
-          if(inputOptions.value === "kilogram") 
-            if(outputOptions3.value === "pound"){
+          if(inputOptions.value === "Kilogram") 
+            if(outputOptions3.value === "Pound"){
 //rectangle.value prevents conversion of empty value
                 if (rectangle.value){
                 //literal strings
@@ -76,8 +76,8 @@ function container1(){
         }
     }
 
-                if(inputOptions.value === "pound")
-                if(outputOptions3.value === "kilogram"){
+                if(inputOptions.value === "Pound")
+                if(outputOptions3.value === "Kilogram"){
 
                     if (rectangle.value){
             groupEl3.textContent = `${rectangle.value} pounds = 
@@ -87,20 +87,18 @@ function container1(){
     }
 
 
-
-
-    if(inputOptions.value === "litre")
-        if(outputOptions2.value === "litre") {
+    if(inputOptions.value === "Litre")
+        if(outputOptions2.value === "Litre") {
             groupEl2.textContent = `${rectangle.value} litre`
         }
 
-         if(inputOptions.value === "galon") 
-            if(outputOptions2.value === "galon"){
+         if(inputOptions.value === "Galon") 
+            if(outputOptions2.value === "Galon"){
                 groupEl2.textContent = `${rectangle.value} galon`
             }
 
-          if(inputOptions.value === "litre") 
-            if(outputOptions2.value === "galon"){
+          if(inputOptions.value === "Litre") 
+            if(outputOptions2.value === "Galon"){
 //rectangle.value prevents conversion of empty value
                 if (rectangle.value){
                 //literal strings
@@ -112,8 +110,8 @@ function container1(){
         }
     }
 
-                if(inputOptions.value === "galon")
-                if(outputOptions2.value === "litre"){
+                if(inputOptions.value === "Galon")
+                if(outputOptions2.value === "Litre"){
 
                     if (rectangle.value){
                     groupEl2.textContent = `${rectangle.value} gallons = 

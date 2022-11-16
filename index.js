@@ -92,13 +92,13 @@ function container1(){
             groupEl2.textContent = `${rectangle.value} litre`
         }
 
-         if(inputOptions.value === "Galon") 
+         if(inputOptions.value === "Gallon") 
             if(outputOptions2.value === "Galon"){
                 groupEl2.textContent = `${rectangle.value} galon`
             }
 
           if(inputOptions.value === "Litre") 
-            if(outputOptions2.value === "Galon"){
+            if(outputOptions2.value === "Gallon"){
 //rectangle.value prevents conversion of empty value
                 if (rectangle.value){
                 //literal strings
@@ -110,7 +110,7 @@ function container1(){
         }
     }
 
-                if(inputOptions.value === "Galon")
+                if(inputOptions.value === "Gallon")
                 if(outputOptions2.value === "Litre"){
 
                     if (rectangle.value){

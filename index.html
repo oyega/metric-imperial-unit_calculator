@@ -9,25 +9,50 @@
     <title>Metric/Imperial-Unit_Calculator</title>
 </head>
 <body>
-    <div>
+    <div id="total">
+
         <div id="main">
             <h1 id="heading">Metric/Imperial Unit Conversion</h1>
-            <input id="rectangle" type="number" placeholder="">
+            <input id="rectangle" type="number" placeholder="number">
+            <input type="text" id="inputOptions" placeholder="text">
+            <!-- <select id="change">
+                <option value="meter">meter</option>
+                <option value="">feet</option>
+                <option value="">kilogram</option>
+                <option value="">pound</option>
+                <option value="">litre</option>
+                <option value="">galon</option>
+                </select> -->
             <button id="convert-btn">convert</button>
         </div>
 
         <div id="group1">
-            <h3>length (Meter/Feet)</h2>
+            <!-- <select class="change1">
+                <option value="">meter</option>
+                <option value="">feet</option>
+                </select> -->
+                <input type="text" id="outputOptions" placeholder="text">
+            <h3>(meter to feet) / (feet to meter)</h2>
             <h4 id="converter1"></h4>
         </div>
 
         <div id="group2">
-            <h3>Litres (Litre/Galon)</h2>
+            <!-- <select class="change1">
+                <option value="">litre</option>
+                <option value="">galon</option>
+                </select> -->
+                <input type="text" id="outputOptions2" placeholder="text">
+            <h3>(litre to galon) / (galon to litre)</h2>
             <h4 id="converter2"></h4>
         </div>
 
         <div id="group3">
-            <h3>kilogram (Kilogram/Pound)</h2>
+            <!-- <select class="change1">
+                <option value="">kilogram</option>
+                <option value="">pound</option>
+                </select> -->
+                <input type="text" id="outputOptions3" placeholder="text">
+            <h3>(kilogram to pound) / (pound to kilogram)</h2>
             <h4 id="converter3"></h4>
         </div>
         <script src="index.js"></script>

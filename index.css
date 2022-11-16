@@ -33,15 +33,46 @@ top: 0px;
 background: #6943FF;
 }
 
+#change {
+position: absolute;
+top: 10px;
+left: 10px;
+border: 2px solid #B295FF;
+border-radius: 5px;
+width: 80px;
+height: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+text-align: center;
+background: #6943FF;
+color: white;
+}
+
+.change1 {
+    position: absolute;
+top: 10px;
+left: 10px;
+border: 2px solid #B295FF;
+border-radius: 5px;
+width: 80px;
+height: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+text-align: center;
+background: #273549;
+color: white;
+}
+
 #rectangle {
 box-sizing: border-box;
 position: absolute;
-top: 101px;
 border: 2px solid #B295FF;
 border-radius: 5px;
 width: 211px;
 height: 51.23px;
-left: 171px;
+left: 40px;
 top: 131px;
 background: #6943FF;
 font-family: 'Inter';
@@ -51,7 +82,44 @@ font-size: 58px;
 line-height: 24px;
 text-align: center;
 color: #FFFFFF;
+}
 
+#inputOptions{
+position: absolute;
+box-sizing: border-box;
+border: 2px solid #B295FF;
+border-radius: 5px;
+width: 211px;
+height: 51.23px;
+left: 280px;
+top: 131px;
+background: #6943FF;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 58px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#outputOptions, #outputOptions2, #outputOptions3 {
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 211px;
+    height: 51.23px;
+    left: 155px;
+    top: 30px;
+    background: #273549;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 58px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
 }
 
 button {
@@ -103,21 +171,24 @@ border-radius: 4.68077px 0px 0px 0px;
 }
 
 h3 {
-    position: absolute;
+position: absolute;
 width: 346px;
 height: 25px;
 left: 77px;
-top: 31px;
+top: 5px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 600;
 font-size: 20px;
 line-height: 20px;
+margin: 0 auto;
 /* or 100% */
-
 text-align: center;
-
 color: #CCC1FF;
+}
+
+h4 {
+    margin: 0 auto;
 }
 
 #converter1, #converter2, #converter3 {
@@ -125,7 +196,7 @@ color: #CCC1FF;
     width: 346px;
     height: 25px;
     left: 77px;
-    top: 65px;
+    top: 85px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
